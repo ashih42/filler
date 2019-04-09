@@ -63,14 +63,12 @@ clean:
 	@echo "\x1b[1m\nCleaning...\x1b[0m"
 	make -C $(LIBFT) clean
 	make -C $(MINILIBX) clean
-	/bin/rm -f $(SRC_OFILES)
-	/bin/rm -f $(VIS_OFILES)
+	/bin/rm -f $(SRC_OFILES) $(VIS_OFILES)
 
 fclean: clean
 	/bin/rm -f $(LIBFT)/libft.a
 	/bin/rm -f $(MINILIBX)/libmlx.a
-	/bin/rm -f $(NAME)
-	/bin/rm -f $(VIS)
+	/bin/rm -f $(NAME) $(VIS)
 
 re: fclean all
 
