@@ -1,5 +1,5 @@
 # filler
-Watch 2 AI agents compete to fill territory on 2D grid, in C using [minilibx](https://github.com/qst0/ft_libgfx). (42 Silicon Valley)
+Design an AI agent to compete in a 2D grid-filling game, in C using [minilibx](https://github.com/qst0/ft_libgfx). (42 Silicon Valley)
 
 ![screenshot](https://github.com/ashih42/filler/blob/master/Screenshots/ashih_vs_apuel.png)
 
